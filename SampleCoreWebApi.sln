@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{83510E02-4458-4262-857D-F33E46282617}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6099C41D-5684-465A-A23B-37F26A14F5E0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1870D586-DC59-436A-80AD-993F952AEC5F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleCoreWebApi", "src\SampleCoreWebApi\SampleCoreWebApi.xproj", "{09FECC6E-00C2-486F-81E6-0850CBD50DAA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleCoreWebApi.Core", "src\SampleCoreWebApi.Core\SampleCoreWebApi.Core.xproj", "{511383E9-B789-4B57-8D8B-709434AB5856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09FECC6E-00C2-486F-81E6-0850CBD50DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FECC6E-00C2-486F-81E6-0850CBD50DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FECC6E-00C2-486F-81E6-0850CBD50DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FECC6E-00C2-486F-81E6-0850CBD50DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511383E9-B789-4B57-8D8B-709434AB5856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511383E9-B789-4B57-8D8B-709434AB5856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511383E9-B789-4B57-8D8B-709434AB5856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511383E9-B789-4B57-8D8B-709434AB5856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09FECC6E-00C2-486F-81E6-0850CBD50DAA} = {83510E02-4458-4262-857D-F33E46282617}
+		{511383E9-B789-4B57-8D8B-709434AB5856} = {83510E02-4458-4262-857D-F33E46282617}
+	EndGlobalSection
+EndGlobal
